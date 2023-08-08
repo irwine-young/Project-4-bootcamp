@@ -56,13 +56,15 @@ Using the Random Forest machine learning model, the train data are fitted into i
     3. random_state
     4. criterion
 
+![ML Scores](Images/ml_score.png)
+
 Once the model was optimised, it was then deployed in a web app using Streamlit.
 
 ![ML Web App](Images/app_model.png)
 
 
 ## Results
-This Tableau dahsboard shows the accuracy of the model (XX%) and its precision scores to predict those staying (0 - XX%) and leaving (1 -XX%)
+This Tableau dahsboard shows the accuracy of the model (86.85%) and its precision scores to predict those staying (0 - 87%) and leaving (1 -71%)
 
 ![Tableau](Images/tableau_dashboard.png)
 
