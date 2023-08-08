@@ -33,8 +33,7 @@ df_pred = pd.DataFrame([[Age,
 
               columns = ["Age",
                          "DistanceFromHome",
-                         "MonthlyIncome",
-                         
+                         "MonthlyIncome",                         
                          "NumCompaniesWorked",
                          "OverTime",
                          "PercentSalaryHike",
