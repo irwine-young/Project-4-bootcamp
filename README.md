@@ -59,13 +59,13 @@ Using the Random Forest machine learning model, the train data are fitted into i
 
 ![ML Scores](Images/ml_score.png)
 
-Once the model was optimised, it was then deployed in a web app using Streamlit.
+Once the model was optimised, the model is serialised using Pickle, saved using Joblib then deployed/load in a web app using Streamlit.
 
 ![ML Web App](Images/app_model.png)
 
 
 ## Results
-This Tableau dashboard shows the accuracy of the model (86.85%) and its precision scores to predict those staying (0 - 87%) and leaving (1 -71%)
+This Tableau dashboard shows the accuracy of the model (85.71%) and its precision scores to predict those staying (0 - 87%) and leaving (1 -64%)
 
 ![Tableau](Images/tableau_dashboard.png)
 
@@ -85,7 +85,9 @@ On the other hand, those that are in their mid-20s to early-40s have also a quit
  Lastly, for those in the age range of late-50s and above, there is a significantly low attrition rate as this is the retiring age and aged staff usually prefer staying in the current company that they are in as that is the last stage of their career.
 
 ## Running the ML Web App
-[insert something here]
+To run the ML web app, install the streamlit library using the "!pip install streamlit". Run this code, "streamlit run streamlit_fhs.py", under the model folder.
+
+![ML Web App](Images/app_model.png)
 
 
 
