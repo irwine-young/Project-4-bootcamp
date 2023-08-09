@@ -36,7 +36,7 @@ To run and deploy this project properly, this requires the following:
 
 First, the dataset is preprocessed by cleaning up the data, transforming categorical data into numerical, and then splitting them into Train and Test. Attrition is set as the Target Variable, which is what we are predicting using this ML project: 0 - likely to stay & 1 - likely to leave 
 
-Using the Random Forest machine learning model, the train data are fitted into it, followed by the test data. The score results were printed for both the Train and Test data, focusing on the model's Accuracy Score, which our aim to have higher than 75%. After the initial run, the model will be optimised by doing the following:
+Using the Random Forest machine learning model, the train data are fitted into it, followed by the test data. The score results were printed for both the Train and Test data, focusing on the model's Accuracy Score, which our aim is to have higher than 75%. After the initial run, the model will be optimised by doing the following:
 * Feature Engineering
     * Only the Top 10 Features are considered:
         1. Monthly Income 
@@ -65,7 +65,7 @@ Once the model was optimised, the model is serialised using Pickle, saved using 
 
 
 ## Results
-This Tableau dashboard shows the accuracy of the model (85.71%) and its precision scores to predict those staying (0 - 87%) and leaving (1 -64%)
+This [Tableau dashboard](https://public.tableau.com/app/profile/sandy.berahim/viz/Project4_16912155049800/Dashboard1#1) shows the accuracy of the model (85.71%) and its precision scores to predict those staying (0 - 87%) and leaving (1 -64%)
 
 ![Tableau](Images/tableau_dashboard.png)
 
